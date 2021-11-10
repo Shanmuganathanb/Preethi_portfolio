@@ -1,5 +1,7 @@
 var gallery = undefined;
 
+document.querySelector('video').playbackRate = 0.5;
+
 function closeMenu() {
   $(".navbar-collapse").removeClass("show"); 
 }

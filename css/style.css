@@ -73,7 +73,7 @@ h2 {
     min-height: 100%;
     transform: translateX(-50%) translateY(-50%);
     z-index: -100;
-    background-image: url(../img/tm-astro-bg.jpg);
+    background-image: url(../img/bg.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -260,7 +260,7 @@ h2 {
     max-width: 240px;
     margin-left: 10px;
     margin-right: 10px;
-	height: auto;
+    height: 250px;
 	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
@@ -268,9 +268,10 @@ h2 {
 
 .gallery-slider figure img {
 	position: relative;
-	display: block;
+    display: block;
 	min-height: 100%;
 	max-width: 100%;
+    background-color: white ;
 }
 
 .gallery-slider figure figcaption {
@@ -569,6 +570,13 @@ figure.effect-julia:hover p {
         text-align: left;
         margin-top: 10px;
     }
+
+    .gallery-slider figure {
+        max-width: 150px;
+        margin-left: 5px;
+        margin-right: 5px;
+        height: 150px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -601,6 +609,14 @@ figure.effect-julia:hover p {
 
     .intro-img-2 {
         width: 48%;
+    }
+
+    .page-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .navbar-brand {
+        font-size: 1.4rem;
     }
 }
 
