@@ -28,6 +28,10 @@ h2 {
     font-size: 1.8rem;
 }
 
+h3 {
+    text-align: center;
+}
+
 .highlight {
     color: #99FF66;
 }
@@ -42,6 +46,12 @@ h2 {
 
 .container-fluid {
     max-width: 1860px;
+    padding: 10px 5px;
+}
+
+.px-3{
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
 }
 
 .btn {
@@ -126,12 +136,12 @@ h2 {
 
 .tm-border-bottom {
     border-bottom: 1px solid white;
-    padding-bottom: 48px;
+    padding-bottom: 30px;
 }
 
 .tm-border-top {
     border-top: 1px solid white;
-    padding-top: 48px;
+    padding-top: 30px;
 }
 
 .navbar .navbar-nav .nav-item.selected .nav-link,
@@ -175,7 +185,12 @@ h2 {
 }
 
 .content-pad {
+    margin-top: 15px;
     padding: 40px 30px;
+}
+
+.content-pad.education {
+    padding:20px;
 }
 
 .page-width-1 {
@@ -340,9 +355,9 @@ h2 {
 /***** Julia *****/
 /*---------------*/
 
-figure.effect-julia {
+/* figure.effect-julia {
 	background: #2f3238;
-}
+} */
 
 figure.effect-julia img {
 	-webkit-transition: opacity 1s, -webkit-transform 1s;
@@ -577,6 +592,20 @@ figure.effect-julia:hover p {
         margin-right: 5px;
         height: 150px;
     }
+
+    .content-pad {
+        padding: 25px 15px;
+    }
+    
+    .content-pad ul{
+        font-size: 18px;
+        padding-left: 12px;
+    }
+
+    .gallery-slider figure p {
+        letter-spacing: 0.5px;
+        font-size: 40.5%;
+    }
 }
 
 @media (max-width: 600px) {
@@ -612,8 +641,8 @@ figure.effect-julia:hover p {
     }
 
     .page-container {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     .navbar-brand {
         font-size: 1.4rem;
